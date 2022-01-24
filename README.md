@@ -1,2 +1,1 @@
-# this is a first git test
-and then I'll try to commit something
+# judge girl C progamming practice
