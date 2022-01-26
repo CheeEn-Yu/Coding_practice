@@ -15,7 +15,7 @@ int main(){
         for (int i = 1; i <= date[month]; i++){
             printf("%3d", i);
             width+=3;
-            if (width == 21){
+            if (width == 21 && i != date[month]){
                 width = 0;
                 printf("\n");
             }
