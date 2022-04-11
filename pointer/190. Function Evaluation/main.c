@@ -8,7 +8,8 @@ int main(){
   int d[] = { 9, 7 };
   int *iptr[] = { a, b, c, d };
   int max, index;
+  
+  printf("%d\n", iptr[0][1]);
   max = evaluate_f(iptr, 4, &index);
   printf("%d %d\n", max, index);
-  return 0;
 }
