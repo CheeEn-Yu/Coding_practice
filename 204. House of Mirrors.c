@@ -3,6 +3,7 @@
 
 int main(){
     int w,d;
+    int mirrow[w][d];
     
     return 0;
 }
