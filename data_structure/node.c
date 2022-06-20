@@ -8,9 +8,9 @@ struct node *getNode(struct node *head, unsigned int i){
     while (cur->next != NULL){
         ++l;
     }
-    for (int j = 0; j > l - i; j++)
+    for (int j = 0; j > l - i - 1; j++)
     {
-        cur = cur->next;
+        cur1 = cur1->next;
     }
-    return cur;
+    return cur1;
 }
