@@ -1,14 +1,14 @@
 #include "node.h"
 #include<stdio.h>
 struct node *getNode(struct node *head, unsigned int i){
-    struct node *cur;
-    struct node *cur1;
-    cur = head; cur1 = head;
+    struct node *cur = head, *cur1 = head;
     int l = 1;
     while (cur->next != NULL){
+        cur = cur->next;
         ++l;
     }
-    for (int j = 0; j > l - i - 1; j++)
+    if (i >= l) return NULL;
+    for (int j = 0; j < l - i - 1; j++)
     {
         cur1 = cur1->next;
     }
