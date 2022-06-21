@@ -29,7 +29,22 @@
 |Question|
 |--------|
 |[18.c](./array/18.c) |
+|[33.c](./array/33_Intersection.c) |
 |[49.c](./array/49.c) |
+|[74.c](./array/74_Mn.c) |
+|[195.c](./array/195.c) |
+|[265.c](./array/265.%20Minimum%20Containing%20Box.c) |
 |[271.c](./array/271.c) |
 
+</details>
+
+<details>
+<summary>pointer</summary>
+
+|Question|
+|--------|
+|[23](./pointer/23.%20Maximum%20in%20Pointer%20Array/) |
+|[72](./pointer/72.%20Fill%20the%20Array/) |
+|[190](./pointer/190.%20Function%20Evaluation/) |
+|[206](./pointer/206.%20Card%20Shuffling/) |
 </details>
